@@ -21,6 +21,7 @@ public class LaunchActivity extends AppCompatActivity {
         dashboardBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Implement getCurrentUser() Logic
                 startActivity(new Intent(LaunchActivity.this, DashboardActivity.class));
             }
         });
