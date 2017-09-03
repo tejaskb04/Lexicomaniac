@@ -1,5 +1,6 @@
 package com.example.lexicomaniac;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
@@ -28,6 +29,7 @@ public class DashboardActivity extends AppCompatActivity {
                         return true;
                     }
                     case R.id.navigation_settings: {
+                        startActivity(new Intent(DashboardActivity.this, SettingsActivity.class));
                         return true;
                     }
                     default: {
