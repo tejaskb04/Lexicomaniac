@@ -26,6 +26,7 @@ public class DashboardActivity extends AppCompatActivity {
                         return true;
                     }
                     case R.id.navigation_search: {
+                        startActivity(new Intent(DashboardActivity.this, SearchActivity.class));
                         return true;
                     }
                     case R.id.navigation_settings: {
