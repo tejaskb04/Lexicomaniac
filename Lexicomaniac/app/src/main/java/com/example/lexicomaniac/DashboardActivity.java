@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 public class DashboardActivity extends AppCompatActivity {
+
     private BottomNavigationView bottomNavigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

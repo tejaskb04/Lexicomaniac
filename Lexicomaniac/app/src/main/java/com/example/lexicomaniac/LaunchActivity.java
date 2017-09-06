@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class LaunchActivity extends AppCompatActivity {
+
     private Button dashboardBtn;
     private Button switchUserBtn;
     private Button newUserBtn;

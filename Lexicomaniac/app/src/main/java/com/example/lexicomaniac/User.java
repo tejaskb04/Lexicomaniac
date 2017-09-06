@@ -1,6 +1,7 @@
 package com.example.lexicomaniac;
 
 public class User {
+
     private String email;
 
     public User() {

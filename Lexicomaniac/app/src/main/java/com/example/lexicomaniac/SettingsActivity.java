@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class SettingsActivity extends AppCompatActivity {
+
     private TextView profile;
     private TextView account;
     private TextView notifications;
